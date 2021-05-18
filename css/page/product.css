@@ -1,0 +1,277 @@
+/* 
+用途:产品详情页
+*/
+/* 左侧内容 */
+/* 组图 */
+.productWrap {
+  width: 1300px;
+  height: 600px;
+  margin: 20px auto;
+}
+.productLeft {
+  width: 500px;
+  height: 600px;
+  float: left;
+}
+.productImg {
+  width: 500px;
+  height: 500px;
+  position: relative;
+}
+.fangdaqi {
+  width: 150px;
+  height: 150px;
+  border: 3px solid rgba(116, 70, 3, 0.185);
+  background: rgb(221, 180, 44);
+  position: absolute;
+  left: 30%;
+  top: 30%;
+  opacity: 0.4;
+  cursor: move;
+}
+.yijingfangda {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  left: 500px;
+  overflow: hidden;
+  display: none;
+  z-index: 5;
+}
+.productImg:hover .yijingfangda {
+  display: block;
+}
+.goodsImg {
+  width: 500px;
+  border: 1px solid red;
+  height: 500px;
+}
+.productImg i.icon {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 0;
+  bottom: 0;
+  background: grey;
+}
+.productImg i.icon img.iconSearch {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+/* 能点击的小组图 */
+.goodsList {
+  float: left;
+  width: 500px;
+  height: 80px;
+  position: relative;
+}
+.goodsList ul {
+  width: 420px;
+  height: 80px;
+  margin-left: 45px;
+}
+.goodsList ul li img {
+  width: 50px;
+  float: left;
+  /* border: 2px solid crimson; */
+  cursor: pointer;
+  margin: 16px 10px 0 0;
+}
+.goodsList ul li img:hover {
+  border: 2px solid crimson;
+}
+.goodsList label img {
+  float: left;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 0;
+  top: 20px;
+  cursor: pointer;
+}
+.goodsList span img {
+  float: left;
+  width: 40px;
+  position: absolute;
+  right: 0;
+  top: 20px;
+  height: 40px;
+  cursor: pointer;
+}
+
+/* 右边产品信息 */
+/* 标题 */
+.productInfo {
+  float: right;
+  width: 800px;
+  position: relative;
+}
+.titleInfo {
+  float: left;
+  width: 100%;
+  height: 100%;
+  margin: 0 20px 20px 20px;
+}
+.titleInfo h1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+.titleInfo li {
+  color: crimson;
+}
+/* 配送地址 */
+.addressWrap {
+  width: 700px;
+  float: left;
+  margin: 0 0 0 20px;
+}
+
+.addressMinute {
+  float: left;
+  position: relative;
+}
+.minuteTop {
+  width: 200px;
+  height: 40px;
+  border: 1px solid rgb(94, 93, 93);
+  border-bottom: 0;
+  line-height: 40px;
+  text-align: center;
+  z-index: 2;
+}
+.peisongzhi {
+  float: left;
+  margin: 5px 10px 0 0;
+}
+.minuteTop p {
+  float: left;
+  color: rgb(95, 95, 95);
+  margin: -2px 10px 0 10px;
+}
+.minuteTop i img {
+  width: 17px;
+  height: 17px;
+  margin: 10px 10px 0 0;
+}
+.minuteButtom {
+  width: 450px;
+  height: 200px;
+  border: 1px solid rgb(94, 93, 93);
+}
+.minuteButtom p {
+  margin: 20px 0 0 10px;
+  float: left;
+}
+.minuteButtom img {
+  height: 17px;
+  width: 17px;
+  margin: 25px 20px 0 0;
+  float: right;
+}
+.chooseAddress {
+  width: 450px;
+  margin: 20px 0 0 0px;
+  float: left;
+  border-bottom: 2px solid rgb(151, 151, 13);
+  z-index: 3;
+}
+.chooseCity ul li {
+  float: left;
+  border: 1px solid grey;
+  border-bottom: 0;
+  width: 60px;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: center;
+  height: 30px;
+  margin: 2px 0 0 10px;
+  cursor: pointer;
+  z-index: 4;
+}
+.chooseCity ul li:hover {
+  border: 2px solid rgb(151, 151, 13);
+  border-bottom: 0;
+}
+.xxx {
+  float: left;
+}
+.xxx ul {
+  float: left;
+  margin: 10px 0 0 10px;
+}
+.xxx ul li {
+  float: left;
+  padding: 5px 40px 0 0;
+  width: 75px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+/* 购物按钮 */
+.buttonInfo {
+  width: 250px;
+  height: 60px;
+  float: left;
+  margin: 10px 0 0 87px;
+}
+.shopNumber {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  float: left;
+}
+.shopNumber .leftBig {
+  width: 35px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 20px;
+  border: 0;
+  border: 1px solid #aaa;
+  border-right: 0;
+}
+.shopNumber .rightTop {
+  width: 25px;
+  height: 30px;
+  background: #000;
+  line-height: 30px;
+  text-align: center;
+  background: rgb(243, 239, 239);
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: 0;
+  border: 1px solid #aaa;
+}
+.shopNumber .rightBottom {
+  width: 25px;
+  height: 30px;
+  background: #000;
+  line-height: 30px;
+  text-align: center;
+  background: rgb(243, 239, 239);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border: 0;
+  border: 1px solid #aaa;
+  border-top: 0;
+}
+.shopNumber .rightTop:hover,
+.shopNumber .rightBottom:hover {
+  background-color: red;
+}
+.shopButton {
+  float: right;
+  width: 180px;
+  height: 60px;
+  background-color: red;
+  color: white;
+  font-size: 30px;
+  line-height: 60px;
+  text-align: center;
+  cursor: pointer;
+}

@@ -1,0 +1,12 @@
+/* 
+用途:公共的css
+*/
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+mr10 {
+  margin-right: 10px;
+}

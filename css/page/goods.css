@@ -1,0 +1,218 @@
+/* 
+用途:商品页
+*/
+/* 清除浮动 */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/* 商品头部 */
+.goodsTitle {
+  width: 1300px;
+  height: 40px;
+  position: relative;
+  margin: 20px auto;
+}
+.goodsTitle label {
+  font-size: 25px;
+  font-weight: bold;
+  color: tomato;
+  border-bottom: 4px solid tomato;
+  line-height: 50px;
+  position: absolute;
+  left: 0;
+  bottom: -24px;
+}
+.goodsTitle label i {
+  font-style: normal;
+  margin-left: 10px;
+}
+
+/* 商品主要区域 */
+.goodsMain {
+  width: 1300px;
+  margin: 0 auto;
+}
+.goodsDetail {
+  height: 60px;
+  width: 1300px;
+  border: 1px solid rgb(124, 124, 124);
+}
+input.inputW1 {
+  margin-right: 10px;
+}
+.goodsW1 {
+  float: left;
+  width: 150px;
+  margin: 20px 0 0 20px;
+}
+.goodsW2 {
+  float: left;
+  width: 550px;
+  margin-top: 20px;
+}
+.goodsW3 {
+  width: 130px;
+  margin-top: 20px;
+  float: left;
+}
+.goodsW4 {
+  width: 200px;
+  margin-top: 20px;
+  float: left;
+}
+.goodsW5 {
+  width: 115px;
+  margin-top: 20px;
+  float: left;
+}
+.goodsW6 {
+  margin-top: 20px;
+  float: left;
+}
+/* 分割线 */
+.line {
+  width: 100%;
+  height: 3px;
+  background-color: rgb(117, 117, 117);
+  margin: 20px auto;
+}
+/* 商品图 */
+.bigDetail {
+  width: 1300px;
+  height: 200px;
+  background: rgb(223, 201, 162);
+}
+.bigDetail li {
+  float: left;
+}
+.bigDetail .bigD1 {
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.bigDetail .bigD2 img {
+  width: 110px;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+.bigDetail .bigD3 {
+  width: 250px;
+  margin-top: 30px;
+}
+.bigDetail .bigD4 {
+  margin-top: 30px;
+  width: 270px;
+}
+.bigDetail .bigD5 {
+  margin-top: 30px;
+  width: 80px;
+  text-align: center;
+}
+.bigDetail .bigD6 {
+  margin-top: 30px;
+  width: 190px;
+  text-align: center;
+}
+.bigD6 .inputNum {
+  width: 120px;
+  height: 30px;
+  position: relative;
+  left: 50%;
+  margin-left: -60px;
+}
+.inputNum input.I1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #eee;
+  width: 30px;
+  height: 30px;
+  border: 0;
+  cursor: pointer;
+  border: 1px solid rgb(141, 141, 141);
+  border-right: 0ch;
+}
+.inputNum input.I3 {
+  position: absolute;
+  right: 0;
+  width: 30px;
+  top: 0;
+  height: 30px;
+  border: 0;
+  background: #eee;
+  cursor: pointer;
+  border: 1px solid rgb(141, 141, 141);
+  border-left: 0;
+}
+.inputNum input.I2 {
+  border: 0;
+  width: 60px;
+  height: 30px;
+  text-align: center;
+  border: 1px solid rgb(141, 141, 141);
+}
+.bigDetail .bigD7 {
+  margin-top: 30px;
+  width: 204px;
+  text-align: center;
+}
+.bigDetail .bigD8 {
+  margin-top: 30px;
+}
+/* 最后一部分 */
+.productFooter {
+  height: 60px;
+  width: 1300px;
+  border: 1px solid rgb(124, 124, 124);
+  margin-top: 30px;
+  position: relative;
+}
+.productFooter li {
+  float: left;
+}
+.productP1 {
+  margin: 15px 15px 0 10px;
+  width: 60px;
+}
+.productP2 {
+  width: 700px;
+  margin-top: 15px;
+}
+.productP3 {
+  width: 150px;
+  margin-top: 15px;
+}
+.productP3 i {
+  font-style: normal;
+  color: red;
+}
+.productP4 {
+  margin-top: 11px;
+}
+.productP4 i {
+  font-style: normal;
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+}
+.productP6 {
+  position: absolute;
+  bottom: 2px;
+  right: 251px;
+}
+.productP5 {
+  float: right;
+}
+.productP5 input.inputRed {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 130px;
+  height: 58px;
+  background: red;
+  border: 0;
+  color: #eee;
+  font-size: 22px;
+}

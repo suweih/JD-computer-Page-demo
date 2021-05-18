@@ -1,0 +1,33 @@
+/*
+用途:基础的一些设置
+*/
+/* @import url(./page/index.css); */
+
+/* header */
+.header {
+  width: 1190px;
+  height: 170px;
+  padding: 0 0 0 190px;
+  background: #f6f6f6;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+/* main */
+.main {
+  width: 1190px;
+  height: 480px;
+  padding: 0 0 0 190px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  background: #f6f6f6;
+}
+/* productList */
+.productList {
+  width: 1190px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #f6f6f6;
+}
